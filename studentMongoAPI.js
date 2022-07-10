@@ -2,7 +2,7 @@ const express = require("express")
 const app = express()
 const router = express.Router()
 const mongoose = require("mongoose")
-const Student = require("../models/student")
+const Student = require("./student")
 const cors = require("cors")
 
 app.use(express.json()) // To get posted data through body
